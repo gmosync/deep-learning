@@ -5,6 +5,7 @@ This repository contains code, notebooks, and experiments from my Master's in Ar
 
 ## Project Structure
 
+```bash
 deep-learning/
 ├── .venv/ # local virtual environment (ignored by Git)
 ├── notebooks/ # Jupyter notebooks for experiments
@@ -15,13 +16,14 @@ deep-learning/
 ├── requirements.in # editable list of top-level dependencies
 ├── requirements.txt # fully pinned lock file (auto-generated)
 └── .gitignore # files excluded from Git versioning
+```
 
-## 🛠️ Reproducing the environment
+## Reproducing the environment
 
 > **Recommended:** use a project-local virtual environment so this repo’s
 > dependencies stay isolated from any other Python projects on your machine.
 
-### A. Using `venv` + `pip`   *(works on macOS, Windows, Linux)*
+### Using `venv` + `pip`
 
 ```bash
 # 1  Clone the repo
