@@ -163,6 +163,9 @@ nbformat==5.10.4
     #   jupyter-server
     #   nbclient
     #   nbconvert
+    #   nbstripout
+nbstripout==0.8.1
+    # via -r requirements.in
 nest-asyncio==1.6.0
     # via ipykernel
 networkx==3.5
