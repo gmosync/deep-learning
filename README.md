@@ -42,3 +42,21 @@ pip install -r requirements.txt
 
 # 4  Launch Jupyter (if you want notebooks)
 jupyter notebook
+```
+
+### Using `uv`
+
+```bash
+# 1. Clone the repo
+git clone git@github.com:gmosync/deep-learning.git
+cd deep-learning
+
+# 2. Create a virtual environment (uv auto-creates .venv if not present)
+uv venv
+
+# 3. Install the exact pinned dependencies
+uv pip install -r requirements.txt
+
+# 4. Launch Jupyter (if you want notebooks)
+jupyter notebook
+```
