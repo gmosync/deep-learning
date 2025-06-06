@@ -1,4 +1,4 @@
-# Deep Learning Experiments
+# Deep Learning
 
 This repository contains code, notebooks, and experiments from my Master's in Artificial Intelligence deep learning coursework. It includes a clean Python project structure, reproducible virtual environment setup, and modular source code for experimentation and testing.
 
